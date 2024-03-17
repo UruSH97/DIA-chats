@@ -1,0 +1,46 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey"],
+      "responses": ["Hello! How can I assist you today?", "Hi there! How may I help you?"],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later"],
+      "responses": ["Goodbye! Have a great day.", "Take care! See you soon."],
+      "context_set": ""
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thank you", "Thanks", "Appreciate it"],
+      "responses": ["You're welcome! Feel free to ask if you need further assistance.", "No problem! Happy to help."],
+      "context_set": ""
+    },
+    {
+      "tag": "product_info",
+      "patterns": ["Can you tell me about product XYZ?", "What are the features of product ABC?", "Tell me about product specifications."],
+      "responses": ["Sure! Product XYZ is a [brief description]. It features [key features]. For more details, you can visit the product page."],
+      "context_set": ""
+    },
+    {
+      "tag": "order_status",
+      "patterns": ["Where is my order?", "Can you provide an update on my order?", "Track order"],
+      "responses": ["Sure, please provide your order number and I'll check the status for you."],
+      "context_set": ""
+    },
+    {
+      "tag": "payment_methods",
+      "patterns": ["What payment methods do you accept?", "Can I pay with credit card?", "Do you support PayPal?"],
+      "responses": ["We accept various payment methods including credit/debit cards, PayPal, and more. You can find all the available options during the checkout process."],
+      "context_set": ""
+    },
+    {
+      "tag": "contact_info",
+      "patterns": ["How can I contact customer support?", "Do you have a phone number for inquiries?", "Email support"],
+      "responses": ["You can reach our customer support team at [phone number] or email us at [email address]. We're available to assist you during our business hours."],
+      "context_set": ""
+    }
+  ]
+}
